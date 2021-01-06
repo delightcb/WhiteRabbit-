@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('/fonts/CircularStd-Book.eot');
+    src: url('/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/CircularStd-Book.woff2') format('woff2'),
+        url('/fonts/CircularStd-Book.woff') format('woff'),
+        url('/fonts/CircularStd-Book.ttf') format('truetype'),
+        url('/fonts/CircularStd-Book.svg#CircularStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Domaine Sans Display';
+    src: url('/fonts/DomaineSansDisplay-Regular.eot');
+    src: url('/fonts/DomaineSansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DomaineSansDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/DomaineSansDisplay-Regular.woff') format('woff'),
+        url('/fonts/DomaineSansDisplay-Regular.ttf') format('truetype'),
+        url('/fonts/DomaineSansDisplay-Regular.svg#DomaineSansDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Domaine Sans Display';
+    src: url('/fonts/DomaineSansDisplay-Semibold.eot');
+    src: url('/fonts/DomaineSansDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DomaineSansDisplay-Semibold.woff2') format('woff2'),
+        url('/fonts/DomaineSansDisplay-Semibold.woff') format('woff'),
+        url('/fonts/DomaineSansDisplay-Semibold.ttf') format('truetype'),
+        url('/fonts/DomaineSansDisplay-Semibold.svg#DomaineSansDisplay-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Domaine Sans Display';
+    src: url('/fonts/DomaineSansDisplay-Medium.eot');
+    src: url('/fonts/DomaineSansDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DomaineSansDisplay-Medium.woff2') format('woff2'),
+        url('/fonts/DomaineSansDisplay-Medium.woff') format('woff'),
+        url('/fonts/DomaineSansDisplay-Medium.ttf') format('truetype'),
+        url('/fonts/DomaineSansDisplay-Medium.svg#DomaineSansDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+
+  font-family: 'Domaine Sans Display';
+
+}
+
+h1 {font-size:120px!important;}
+
+h2 {font-size:150px!important;}
+
+h3 {font-size:64px!important;}
+
+h4 {font-size:44px!important;}
+
+h5 {font-size:16px!important;}
+
+p {font-size: 14px!important;  }
+
+.wrapper { width:90%; margin:0 auto;}
+
+
+
+/* header start */
+
+header .navbar-brand img {
+width: 100px;
+}
+
+
+header nav {
+
+text-transform: uppercase;
+
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px!important;
+  height: 15px!important;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  transition: opacity .2s ease;
+  border-radius: 30px;
+}
+
+
+header nav a { font-family: 'Circular Std Book';  font-weight: normal; color: #ffffff!important; font-size: 16px; margin: 0!important; padding: 0!important;  }
+
+header nav .mobile-logo { display:none;}
+
+
+header {
+  position: absolute;
+
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 2;
+  text-align: center;
+  margin:35px 0;
+}
+
+header li { margin:0 100px 0 0;}
+
+header li:last-child { margin:0 ; }
+
+
+header nav a:hover { color: #fff!important; }
+
+header nav .active { border-bottom: 1px solid #fff!important; }
+
+.home-banner {position: relative; }
+
+.home-banner .copy {position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); text-align: center; }
+
+/* header end */
+
+/* home-banner start */
+
+.home-banner .copy h1 { color: #fff;  font-family: 'Domaine Sans Display'; line-height: 110px;}
+
+.home-banner .copy h5 { color: #fff;  font-family: 'Circular Std Book';  font-weight: normal; letter-spacing: 15px;}
+
+.home-banner .owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 34px;
+  left: 49%;
+}
+
+/* home-banner end */
+
+/* freezing start */
+
+.freezing {text-align: center; padding: 220px;}
+
+.freezing h2 { color:#03325B; font-family: 'Domaine Sans Display';  font-weight: normal; line-height: 120px; margin-bottom: 125px;}
+.freezing h5 { color:#03325B;  font-family: 'Circular Std Book';  font-weight: normal; letter-spacing: 15px;}
+
+.freezing h3 { color:#03325B;  font-family: 'Domaine Sans Display'; font-weight: normal; margin:100px 0 0 0; line-height:74px; }
+
+/* freezing end */
+
+/* freezing start */
+
+.featured-works { padding:185px 0;  background: #A7C6E3;}
+
+.featured-works-wrapper { width: 95%; position: relative; left:3%;}
+
+.featured-works h3 { font-family: 'Domaine Sans Display'; color:#FFFFFF; text-align: center; margin: 0 0 75px 0;}
+
+.featured-works hr {margin: 100px 0; border-top: 1px solid #FFFFFF;}
+
+.featured-works a {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  display: table;
+  font-size: 14px;
+  padding: 46px 5px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 0px;
+  margin:0 auto;
+}
+
+.featured-works a:hover { color: #fff; opacity:0.5; text-decoration: none;}
+
+.work-slider .item {position: relative;}
+.work-slider .item span { background: #35516B;
+  color:#fff;
+  font-size: 12px;
+  padding: 22px 12px;
+  border-radius: 50%;
+  position: relative;
+  top:-10px;
+  border:none!important;
+  position: absolute;
+  top:20px;
+  right:20px;
+  -ms-transform: rotate(-50deg); /* IE 9 */
+  transform: rotate(-50deg);
+  display:none;
+}
+
+.work-slider .item:hover span{ display: block;}
+
+
+/* freezing end */
+
+
+/* Let’s dicuss start */
+
+.dicuss {padding:380px 0 0 0; text-align: center}
+
+.dicuss h2 { font-family: 'Domaine Sans Display'; line-height: 150px; font-weight: normal; margin:0 0 150px 0;}
+
+.dicuss .call { text-decoration: none; color:#000000; font-family: 'Domaine Sans Display'; font-size:64px;}
+
+.dicuss .call:hover {text-decoration:none;}
+
+.dicuss .email { text-decoration: none; color:#000000; border-bottom:1px solid #000;  font-family: 'Domaine Sans Display';  font-size:64px;}
+
+.dicuss .email:hover {text-decoration:none;}
+
+
+
+.featured-works a {
+
+  margin: 0 auto 30px auto;
+}
+
+
+
+.featured-works h3 {
+  margin: 0 0 30px 0;
+}
+
+
+.dicuss img {margin:150px 0 0 0;}
+
+/* Let’s dicuss end */
+
+
+footer {
+  background: #121212;
+  padding: 120px 0;
+}
+
+footer hr {margin: 100px 0 0 0; border-top: 1px solid #FFFFFF;}
+
+
+footer h5 {font-family: 'Circular Std Book'; color:#6C6C6C; letter-spacing: 15px; margin:0 0 72px 0;}
+
+
+footer h4 {font-family: 'Domaine Sans Display'; color:#fff; line-height: 60px; font-weight: normal;}
+
+footer ul {margin:0; padding:0;  }
+
+footer ul li { font-family: 'Domaine Sans Display'; color:#fff; line-height: 60px; font-weight: normal; font-size:44px; list-style:none; margin:0 0 20px 0; position:relative;}
+
+footer ul li:hover::after {
+  position:absolute;
+  top: 26px;
+  left: -23px;
+  width: 10px;
+  height: 10px;
+  content: "";
+  border: none;
+  background-color: #E48080;
+  border-radius: 50%;
+}
+
+footer .copyright {margin:30px 0 0 0}
+
+footer .copyright p { font-family: 'Circular Std Book'; font-size: 24px; color:#FFFFFF;}
+
+
